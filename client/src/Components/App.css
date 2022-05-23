@@ -1,0 +1,1157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.home {
+  justify-content: center;
+}
+
+h1 {
+  font-size: 250px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.navbar > .header {
+  font-size: 55px;
+  text-decoration: none;
+  color: green;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  height: 75px;
+  color: #b33b30;
+  z-index: 19;
+}
+
+.bar {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.navbar > a {
+  display: inline-block;
+  width: fit-content;
+  margin: 0 1% 0%;
+  background: transparent;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Baskerville;
+}
+.navbar > a :active {
+  text-decoration: none;
+  color: #b33b30;
+}
+
+.navbar > a :visited {
+  text-decoration: none;
+}
+
+.pot {
+  height: 70px;
+}
+a {
+  color: #b33b30;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a :active {
+  color: #b33b30;
+  text-decoration: none;
+}
+
+label {
+  font-family: "Baskerville", sans-serif;
+  font-size: 15px;
+}
+
+form {
+  margin: 15px 0;
+}
+
+input {
+  margin: 7px 0;
+  display: inline-block;
+  border-radius: 6px;
+  border: none;
+}
+
+.login-form {
+  display: inline-block;
+  text-align: center;
+}
+
+b {
+  font-weight: normal;
+  font-size: 20px;
+  margin-right: 4px;
+  text-align: left;
+  color: #b33b30;
+}
+
+.login-button {
+  margin-top: 15px;
+}
+
+.login-button {
+  border-radius: 8px;
+  border-color: green;
+  background-color: green;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+.logger,
+.login-form {
+  margin-top: 7%;
+}
+
+.navvyy {
+  margin-right: 20px;
+}
+
+.inv {
+  border: solid;
+  border-color: #b33b30;
+  padding: 50px;
+  box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 20px;
+  text-align: center;
+  float: left;
+  width: 380px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+}
+
+.pic-plant {
+  height: 300px;
+  width: auto;
+  margin-top: -7%;
+}
+
+.plant-name {
+  position: relative;
+  margin-top: -8%;
+  color: #b33b30;
+}
+
+.plant-price {
+  font-weight: normal;
+  margin-top: 5%;
+}
+
+.add-plant {
+  margin-top: 10px;
+  border-radius: 8px;
+  border-color: green;
+  background-color: green;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+.inventory {
+  display: flex;
+  width: 100%;
+  overflow: scroll;
+}
+
+.account-button {
+  display: flex;
+  margin: auto;
+  margin-left: 6px;
+  display: inline-block;
+  border-radius: 8px;
+  border-color: green;
+  background-color: green;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+.account {
+  color: #b33b30;
+}
+
+.planny {
+  color: #b33b30;
+  font-size: 20px;
+}
+
+.garden-pic {
+  width: 550px;
+}
+
+.container {
+  height: 50vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.border {
+  height: 449px;
+  width: 330px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.border:hover {
+  border: 1px solid white;
+}
+
+.my-garden-prompt {
+  color: #b33b30;
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 100px;
+}
+.card {
+  height: 459px;
+  width: 350px;
+  background: grey;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0px 0px 30px 7px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card0 {
+  background: url("https://images.unsplash.com/photo-1626828804065-652534dfe7d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmVhdXRpZnVsJTIwZ2FyZGVufGVufDB8fDB8fA%3D%3D&w=1000&q=80")
+    center center no-repeat;
+  background-size: 380px;
+}
+.card:hover {
+  background: url("https://images.unsplash.com/photo-1626828804065-652534dfe7d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmVhdXRpZnVsJTIwZ2FyZGVufGVufDB8fDB8fA%3D%3D&w=1000&q=80")
+    left center no-repeat;
+  background-size: 600px;
+}
+
+.white-leaf {
+  opacity: 1;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.fa {
+  opacity: 1;
+}
+
+.icons {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.exp-header {
+  margin-bottom: 75px;
+}
+
+#home {
+  height: 100vh;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.home-head {
+  height: 100%;
+  width: 100%;
+}
+
+#my-garden {
+  margin-top: 5%;
+}
+
+#inventory {
+  margin-top: 5%;
+}
+
+#features {
+  margin-top: 5%;
+}
+
+.garden-5 {
+  margin: 0px;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: green;
+}
+/* * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} */
+
+.garden-p {
+  font-size: 18px;
+  color: green;
+}
+
+.garden-buttons {
+  display: flex;
+  margin: auto;
+  display: inline-block;
+  border-radius: 8px;
+  border-color: green;
+  background-color: green;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  color: white;
+  margin: 8px;
+}
+
+.center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card {
+  height: 36em;
+  width: 28em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 5px 10px #e1e1e3, -5px -5px 10px #ffffff;
+  box-shadow: 5px 5px 10px #e1e1e3, -5px -5px 10px #ffffff;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image {
+  height: 12em;
+  width: 28em;
+  padding: 1em 2em;
+  position: Absolute;
+  top: 0px;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image: url("https://static.onecms.io/wp-content/uploads/sites/37/2020/03/gaillardia-sage-shasta-daisy-07b15496.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* Bottom Card Section */
+
+.property-description {
+  background-color: #fafafc;
+  height: 24em;
+  width: 28em;
+  position: absolute;
+  bottom: 0em;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+}
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description {
+  height: 2em;
+  padding: 0px 1em;
+}
+.property-card:hover .property-image {
+  height: 36em;
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  z-index: 10;
+  width: 65%;
+  height: 650px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.modal_content {
+  background-color: #fdfdfd;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid #b33b30;
+  opacity: 1;
+  z-index: 4;
+  overflow: scroll;
+  background-image: url("https://i.pinimg.com/736x/65/b0/77/65b07747fcedbc496e6ce7bba0524012--wallpaper-borders-wallpaper-ideas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.close {
+  color: green;
+  font-size: 18px;
+  padding: 5px;
+  z-index: 0;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: #b33b30;
+  cursor: pointer;
+}
+
+.explorer {
+  margin-top: -100px;
+  display: flex;
+  overflow: scroll;
+  width: 100%;
+  height: 400px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 260px;
+  height: 260px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* perspective: 1000px; */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.flip-card-back {
+  background-color: #b33b30;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.gard-image {
+  display: flex;
+  justify-content: center;
+  height: 260px;
+  width: 260px;
+  border-radius: 10px;
+}
+
+.explore-garden-name {
+  font-weight: normal;
+  color: #b33b30;
+}
+
+.please-login {
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 100px;
+}
+
+.login-bold {
+  font-weight: bold;
+}
+.features-h {
+  color: #b33b30;
+  font-weight: normal;
+}
+
+.my-gard-card {
+  border: solid;
+  border-color: #b33b30;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 10px;
+  float: left;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: #e4eed0;
+  border-radius: 10px;
+  z-index: 4;
+}
+
+.my-gard-card:hover {
+  box-shadow: 0 8px 16px 0 #b33b30;
+}
+
+.my-gard-card > .item-hold {
+  font-weight: bold;
+  position: relative;
+  display: block;
+  margin: -15px;
+}
+
+.item-name {
+  margin-top: 0px;
+  font-size: larger;
+  color: #b33b30;
+}
+
+.item-price {
+  margin-top: -13px;
+  font-weight: normal;
+  color: #b33b30;
+}
+
+.pic {
+  height: 150px;
+  border-radius: 10px;
+}
+
+.centered-plants {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+label {
+  color: #b33b30;
+  font-size: 16px;
+}
+
+.submit-account-form {
+  border-radius: 8px;
+  border-color: green;
+  background-color: green;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  width: fit-content;
+  margin: auto;
+}
+
+.submit-account-form:active {
+  animation: gradient 140ms;
+  background: #b33b30;
+  color: #fff;
+  box-shadow: none;
+  border-color: #b33b30;
+}
+
+.remove {
+  border-radius: 8px;
+  border-color: green;
+  background-color: green;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.remove:active {
+  animation: gradient 140ms;
+  background: #b33b30;
+  color: #fff;
+  box-shadow: none;
+  border-color: #b33b30;
+}
+
+.small-garden-pic {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.explore-div {
+  list-style: none;
+  margin-bottom: 1px;
+  font-size: 18px;
+}
+
+/* .explore-div:hover {
+  list-style: none;
+  margin-bottom: 1px;
+  image-orientation: 50px;
+} */
+
+.cart-img {
+  height: 18px;
+  display: inline;
+}
+
+.nav-element:hover {
+  text-decoration: underline;
+}
+
+.sure {
+  color: #b33b30;
+  font-weight: normal;
+}
+
+.feature-list {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.feature-list > a {
+  font-size: 32px;
+}
+
+.feature-list:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.features-h2 {
+  color: white;
+  font-size: 20px;
+  margin: 15px;
+}
+.features-h {
+  color: #b33b30;
+}
+
+.flip-card-weather {
+  margin: auto;
+  background-color: transparent;
+  width: 260px;
+  height: 260px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.flip-card-weather:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.weather-button {
+  position: relative;
+  margin: auto;
+  border-radius: 8px;
+  border-color: green;
+  background-color: green;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  color: white;
+  width: 200px;
+}
+
+.weather-button:active {
+  animation: gradient 140ms;
+  background: #b33b30;
+  color: #fff;
+  box-shadow: none;
+  border-color: #b33b30;
+}
+
+.tips-button:active {
+  animation: gradient 140ms;
+  background: #b33b30;
+  color: #fff;
+  box-shadow: none;
+  border-color: #b33b30;
+}
+
+.garden-buttons:active {
+  animation: gradient 140ms;
+  background: #b33b30;
+  color: #fff;
+  box-shadow: none;
+  border-color: #b33b30;
+}
+
+.account-button:active {
+  animation: gradient 140ms;
+  background: #b33b30;
+  color: #fff;
+  box-shadow: none;
+  border-color: #b33b30;
+}
+
+.tips-enter {
+  color: #b33b30;
+  margin-top: -100px;
+}
+
+.flip-card-front-tips {
+  background-image: url("https://www.hdwallpapers.in/download/garden_with_green_grass_and_flowers_in_blue_sky_background_hd_garden-2560x1440.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: black;
+  border-radius: 10px;
+}
+
+.flip-card-tips {
+  background-color: transparent;
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+
+.flip-card-inner-tips {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+}
+
+.flip-card-back-tips {
+  background-color: #b33b30;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.flip-card-tips:hover .flip-card-inner-tips {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-tips,
+.flip-card-back-tips {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tips-text {
+  color: white;
+  font-size: 24px;
+}
+
+.tip-scroll {
+  display: flex;
+  width: 100%;
+  overflow: auto;
+}
+
+.tips-button {
+  position: relative;
+  margin: auto;
+  border-radius: 8px;
+  border-color: green;
+  background-color: green;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+  color: white;
+  width: 200px;
+}
+
+#features {
+  display: block;
+}
+
+.big-tip {
+  display: flex;
+  overflow: scroll;
+  margin-top: -200px;
+}
+
+.big-weather {
+  display: flex;
+  overflow: scroll;
+}
+
+.weather-scroll {
+  display: flex;
+  width: 100%;
+  overflow: auto;
+}
+
+.tips {
+  margin: auto;
+}
+
+.pod-div {
+  margin-top: -225px;
+}
+
+.pod-img {
+  height: 350px;
+  border-radius: 10px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.pod-name {
+  color: #b33b30;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pod-content {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 800px;
+  height: 575px;
+  margin: auto;
+  opacity: 0.95;
+  border-radius: 10px;
+  border: 2px solid #b33b30;
+  background-image: url("https://i.pinimg.com/736x/65/b0/77/65b07747fcedbc496e6ce7bba0524012--wallpaper-borders-wallpaper-ideas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-pod-card {
+  border: solid;
+  border-color: #b33b30;
+  margin-bottom: auto;
+  margin-top: auto;
+  text-align: center;
+  width: 650px;
+  height: 500px;
+  position: relative;
+  background-color: #e4eed0;
+  border-radius: 10px;
+}
+
+.search-bar {
+  width: 300px;
+  color: #b33b30;
+}
+
+.searcher {
+  color: #b33b30;
+  font-weight: normal;
+}
+
+.flip-card-front-contact-insta {
+  background-image: url("https://newfiremusic.net/wp-content/uploads/2021/03/IG.png");
+  background-size: cover;
+  background-position: bottom;
+  color: black;
+  border-radius: 10px;
+}
+
+.flip-card-front-contact-linked {
+  background-image: url("https://programadoresbrasil.com.br/wp-content/uploads/2020/09/linkedin-1280x720-1.png");
+  background-size: cover;
+  background-position: bottom;
+  color: black;
+  border-radius: 10px;
+}
+
+.flip-card-front-contact-github {
+  background-image: url("https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/1885/profiles/20400/profileImage/Tn2cD3Wq_400x400.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: black;
+  border-radius: 10px;
+}
+
+.flip-card-contact {
+  background-color: transparent;
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+
+.flip-card-inner-contact {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+}
+
+.flip-card-back-contact {
+  background-color: #b33b30;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.flip-card-contact:hover .flip-card-inner-contact {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-contact-insta,
+.flip-card-back-contact {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.flip-card-front-contact-linked,
+.flip-card-back-contact {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.flip-card-front-contact-github,
+.flip-card-back-contact {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.contact-name {
+  color: #b33b30;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.handle {
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+.center-handle {
+  margin: auto;
+  display: block;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contact-image {
+  height: 125px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.plant-news {
+  margin-top: -250px;
+}
+
+/* .twitter-embed {
+  height: 100px;
+} */
+
+.amaze-plants {
+  color: #b33b30;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.twitter-content {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 800px;
+  height: 575px;
+  margin: auto;
+  opacity: 0.95;
+  border-radius: 10px;
+  border: 2px solid #b33b30;
+  background-image: url("https://i.pinimg.com/736x/65/b0/77/65b07747fcedbc496e6ce7bba0524012--wallpaper-borders-wallpaper-ideas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-twitter-card {
+  border: solid;
+  border-color: #b33b30;
+  margin-bottom: auto;
+  margin-top: auto;
+  text-align: center;
+  width: 650px;
+  height: 500px;
+  position: relative;
+  background-color: #e4eed0;
+  border-radius: 10px;
+}
+
+.add-plant:active {
+  animation: gradient 140ms;
+  background: #b33b30;
+  color: #fff;
+  box-shadow: none;
+  border-color: #b33b30;
+}
+
+@keyframes gradient {
+  0% {
+    background: radial-gradient(
+      circle at center,
+      #b33b30 0%,
+      green 0%,
+      green 100%
+    );
+  }
+  25% {
+    background: radial-gradient(
+      circle at center,
+      #b33b30 24%,
+      green 25%,
+      green 100%
+    );
+  }
+  50% {
+    background: radial-gradient(
+      circle at center,
+      #b33b30 49%,
+      green 50%,
+      green 100%
+    );
+  }
+  75% {
+    background: radial-gradient(
+      circle at center,
+      #b33b30 74%,
+      green 75%,
+      green 100%
+    );
+  }
+  100% {
+    color: green;
+    background: radial-gradient(
+      circle at center,
+      #b33b30 99%,
+      green 100%,
+      green 100%
+    );
+  }
+}
+
+.cart {
+  position: relative;
+  margin-top: 10%;
+  font-size: 30px;
+  color: #b33b30;
+  font-weight: normal;
+}
+.cart > h2 {
+  font-weight: normal;
+}
